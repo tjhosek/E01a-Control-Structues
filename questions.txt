@@ -1,40 +1,71 @@
 Open main1.py. Before running it, what do you expect this program to do? 
 
+    It's going to print Greetings, and then accept a user input based on the phrase "what is my favorite color"
+
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
 
+    it printed "Greetings!" and then printed "What is my faavorite color"
+
 What do you think the program did with what you typed?
+
+    Nothing
 
 
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
 
+    it will print the color I write back to me
+
 What do you think the color = input() will do? 
 
+    assign a variable "color" to the value that I input
+
 Run the program in the terminal and answer the question. Did the program do what you expected?
+
+    Yes!
 
 
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
 
+    it has an if-else statement that will print a seperate string dependant on whether or not the input is "red"
+
 What is happening on lines 11–14? 
+
+    it is an if-else statement, so it will change the output dependant on the input
 
 Why are lines 12 and 14 indented? 
 
+    because they are in an if statement, seperating them from the rest of the code
+
 Run the program and answer the question. What happens if you don’t capitalize Red? 
 
+    the program returns the incorrect string, as python recognizes "red" and "Red" as seperate strings
+
 What does this tell you about "color"?
+
+    color considers uppercase characters distinct from lowercase characters
 
 
 
 Open main4.py. Before running it, describe how this is different than main2.py. 
 
+    main4 will check for an answer of "Red" or "red", and print correct if either appears
+
 What problem is this trying to solve? 
 
+    even though humans can determine that "red" and "Red" refer to the same thing, Python recognizes them as distinct and different strings, meaning that the question,
+    while technically true, will return false due to the logic of the language.
+
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+
+    Capitalizing other characters still returns the incorrect response
 
 
 
 Open main5.py. What do you expect line 11 to do? 
+
+    it will check if the lowercase
 
 What problem is it trying to solve? 
 
