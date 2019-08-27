@@ -1,3 +1,3 @@
-A series of increasing complex "color picker" games. The questions, which I have gone through and responded to when apporpriate, teach a lesson about problem solving in code, and how to account for variance in human responses. A few of the programs have been edited, as per the instructions in the questions.txt file, and the main10.py program has been entirely commented, describing what each line does in the context of the program.
+A series of increasingly complex "color picker" games. The questions, which I have gone through and responded to when apporpriate, teach a lesson about problem solving in code, and how to account for variance in human responses. A few of the programs have been edited, as per the instructions in the questions.txt file, and the main10.py program has been entirely commented, describing what each line does in the context of the program.
 
 -Trevor
