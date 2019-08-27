@@ -69,21 +69,35 @@ Open main5.py. What do you expect line 11 to do?
 
 What problem is it trying to solve? 
 
+    The previous solution only worked for "red" or "Red", not other variations on capitalization.
+
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
+
+    The program prints the incorrect result
 
 
 
 Open main6.py. How is line 11 different than main5.py? 
 
-What would you guess .strip() is doing? 
+    the program includes the .strip() method
+
+What would you guess .strip() is doing?
+
+    removing any leading or trailing white space from the string.
 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+
+    including a space inside of the word, writing a different word for red, "maroon, rouge"
 
 
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
 
+    if the user inputs "pink", instead of giving the default incorrect response, it will respond with "Close!"
+
 What is the purpose of line 11? 
+
+    to remove any leading or trailing white space, and to make the entire string lowercase.
 
 Run the program and answer the question.
 
@@ -91,19 +105,34 @@ Run the program and answer the question.
 
 Open main8.py. What is the purpose of line 11? 
 
+    Creates a loop so that the user will be able to guess multiple times until they are correct.
+
 Why are lines 12–19 indented? 
 
+    because they are in the while loop, forming a subroutine
+
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
+
+    the program would only ask for the color once, and if not correct would enter an infinite loop of printing a specific 
+    response
 
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
+
+
 Open main9.py. What is happening on line 12? 
+
+    a while loop is established to repeat the program while they havent guessed the right
 
 What is the purpose of “count”? 
 
+    to keep track of the number of tries and give the user a count of how many guesses it took
+
 What is happening on line 22? 
+
+    the program prints a line telling the user how many tries it took
 
 Run the program.
 

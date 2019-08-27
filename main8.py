@@ -8,8 +8,9 @@ utils.clear()                       # clear the screen
 
 print('Greetings!')
 color = ''
+color = input("What is my favorite color? ")
 while (color != 'red'):
-    color = input("What is my favorite color? ")
+    
     color = color.lower().strip()
     if (color == 'red'):
         print('Correct!')
